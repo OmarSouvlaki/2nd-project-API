@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  color: #e7e7e7;
+  background-color: #4c536a;
+  padding: 15px;
+  margin-bottom: 36px;
+  display: flex;
+  justify-content: center;
+}
+header .header__title {
+  display: flex;
+}
+header .header__title h1 {
+  color: #e7e7e7;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  letter-spacing: 8px;
+}
+header .header__title img {
+  width: 28px;
+}
+
+main {
+  color: #343844;
+}
+
+.main__searchbar {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+.main__searchbar img {
+  width: 18px;
+  opacity: 0.75;
+  padding: 0px 5px 0px 5px;
+}
+.main__searchbar .searchbar__input {
+  width: 25%;
+}
+
+.main__container {
+  width: 96%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  justify-items: center;
+}
+.main__container .film__card {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  width: 90%;
+  gap: 25px;
+  align-items: center;
+}
+.main__container .film__card .film__picture {
+  width: 120px;
+  margin: 10px;
+}
+.main__container .film__card .film__title {
+  font-size: 16px;
+  font-weight: 600;
+}
+.main__container .film__card .film__premiere {
+  font-size: 15px;
+  font-weight: 400;
+}
+.main__container .film__card .card__cast__btn {
+  color: #e41a1a;
+  cursor: pointer;
+}/*# sourceMappingURL=styles.css.map */
